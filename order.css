@@ -1,0 +1,105 @@
+body {
+  background-color:#f9f9f9 ;
+}
+
+.success-wrapper {
+    max-width: 800px; 
+    margin: 60px auto; 
+    background-color: white; 
+    padding: 40px; 
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  span {
+    color: #28a745;
+    font-size: 40px;
+  }
+
+  .span-container {
+  background-color: #d4edda;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  margin: 0 auto 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .order-confirmation {
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .order-details-card {
+    background-color: #fdfdfd;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+
+  .order-id {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+
+  .pay-method {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+
+  .main-method {
+    background-color: #159c44;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .exact-amount {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .sms-info {
+    background-color: #f0fdf4;
+    border-radius: 1px solid #dcfce7;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+
+  .sms-text {
+    margin: 0;
+    font-size: 14px;
+    color: #166534;
+  }
+
+  .cont-shopping {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .cont-shopping a {
+    text-decoration: none;
+    padding: 12px 30px;
+  }
