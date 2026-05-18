@@ -1,13 +1,7 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$dbname = "shopeazy";
-
-$conn = mysqli_connect($host, $user, $pass, $dbname);
+$conn = mysqli_connect("localhost", "root", "", "socialapp");
 
 if (!$conn) {
-  die ("Connection failed. " . mysqli_connect_error());
+    die("Database connection failed: " . mysqli_connect_error());
 }
-
 ?>
